@@ -1,0 +1,705 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Box</title>
+    <link rel="icon" href="restoreFoodBox/app_logo.jpg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Header part for app name, location, search bar and cart-->
+    <header class="header">
+      <div class="head-container">
+        <!--title start-->
+        <div class="head-divs">
+          <div class="logo">
+            <img
+              src="restoreFoodBox/app_logo.jpg"
+              alt="logo of app"
+              height="25px"
+              width="25px"
+              id="logo_img"
+            />FoodBox
+          </div>
+        </div>
+        <!--title start-->
+        <!--address start-->
+        <div class="head-divs">
+          <div class="location">
+            <img
+              src="restoreFoodBox/location.png"
+              alt="location"
+              width="10px"
+              height="10px"
+              id="location_img"
+            /><span>Deliver to: <strong>Nellore, 524003</strong></span>
+          </div>
+        </div>
+
+        <!--address end-->
+        <!--search start-->
+        <div class="head-divs">
+          <div class="search-container">
+            <input
+              class="search-input"
+              type="text"
+              placeholder="Search your items........"
+            />
+          </div>
+        </div>
+
+        <!--search end-->
+        <!--cart start-->
+        <div class="head-divs">
+          <div class="user-actions">
+            <a href="#cart" class="cart-icon"
+              >🛒
+              <span class="cart-count">3</span>
+            </a>
+          </div>
+        </div>
+        <!--cart end-->
+      </div>
+    </header>
+
+    <!--section1 for Introduction-->
+    <section class="Introduction">
+      <div class="intro_container">
+        <!--quotation1 start-->
+        <h1>Quick Eats, Quality Treats</h1>
+        <!--quotation1 end-->
+        <!--quotation2 start-->
+        <p id="intro_para">
+          Enjoy fast delivery of your favorite meals — hot and fresh at your
+          door in 30 minutes.
+        </p>
+        <!--quotation2 end-->
+        <!--ordernow start-->
+        <a href="#restaurants" class="restro-button">Order Now</a>
+        <!--ordernow end-->
+      </div>
+    </section>
+
+    <!--section2 for Popular Categories-->
+    <section class="Categories">
+      <div class="Container">
+        <h2 class="section-title">Popular Categories</h2>
+        <div class="Categories-grid">
+          <!--PC_pazza-->
+          <div class="Categori-card">
+            <div class="Categories-img">
+              <img
+                src="restoreFoodBox/pizzas.webp"
+                alt="pizza"
+                class="Categori-img"
+                width="100px"
+                height="100px"
+              />
+            </div>
+
+            <h2>pizzas</h2>
+            <p>Melt-in-your-mouth cheesy bliss</p>
+          </div>
+          <!--PC_Burger-->
+          <div class="Categori-card">
+            <div class="Categories-img">
+              <img
+                src="restoreFoodBox/Burger2.avif"
+                alt="pizza"
+                class="Categori-img"
+                width="100px"
+                height="100px"
+              />
+            </div>
+
+            <h2>Burgers</h2>
+            <p>Juicy bites, pure satisfaction</p>
+          </div>
+
+          <!--PC_Healthy-->
+          <div class="Categori-card">
+            <div class="Categories-img">
+              <img
+                src="restoreFoodBox/Salad1.avif"
+                alt="Burger"
+                class="Categori-img"
+                width="100px"
+                height="100px"
+              />
+            </div>
+
+            <h2>Healthy</h2>
+            <p>Freshness in every forkful</p>
+          </div>
+
+          <!--PC_Dessert-->
+          <div class="Categori-card">
+            <div class="Categories-img">
+              <img
+                src="restoreFoodBox/Desserts1.avif"
+                alt="salad"
+                class="Categori-img"
+                width="100px"
+                height="100px"
+              />
+            </div>
+
+            <h2>Desserts</h2>
+            <p>Pure, sweet indulgence</p>
+          </div>
+          <!--PC_Beverages-->
+          <div class="Categori-card">
+            <div class="Categories-img">
+              <img
+                src="restoreFoodBox/Tea2.avif"
+                alt="dessert"
+                class="Categori-img"
+                width="100px"
+                height="100px"
+              />
+            </div>
+
+            <h2>Beverages</h2>
+            <p>Sip and feel refreshed</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Famous Restaurants-->
+    <section class="Restaurants" id="restaurant">
+      <div class="res_Container">
+        <h2 class="section-title">Top Restaurants in City</h2>
+
+        <div class="restaurant_grid">
+          <!--Restaurant1-->
+          <div class="restaurant_card">
+            <div class="restaurant_imgge">
+              <img
+                src="restoreFoodBox/Fusion_Feast_House.png"
+                alt="Fusion Feast House"
+                width="150px"
+                height="200px"
+                id="res"
+              />
+            </div>
+
+            <div class="restaurant_info">
+              <div class="restaurant_name">Fusion Feast House</div>
+
+              <div class="restaurant_cuisine">
+                rom Italian classics to sizzling pizzas and fast food favorites.
+              </div>
+
+              <div class="restaurant_details">
+                <div class="rating">⭐ 4.1</div>
+                <div class="delivery_time">20-25 mins</div>
+              </div>
+            </div>
+          </div>
+
+          <!--Restaurant2-->
+          <div class="restaurant_card">
+            <div class="restaurant_imgge">
+              <img
+                src="restoreFoodBox/Coastal_Andhra_Flavors.png"
+                alt="Coastal Andhra Flavors"
+                width="100px"
+                height="100px"
+              />
+            </div>
+            <div class="restaurant_info">
+              <div class="restaurant_name">Coastal Andhra Flavors</div>
+              <div class="restaurant_cuisine">
+                spicy biryani, flavorful non-veg, and signature ragi mudha from
+                Andhra’s coast
+              </div>
+              <div class="restaurant_details">
+                <div class="rating">⭐ 4.8</div>
+                <div class="delivery_time">15-20 mins</div>
+              </div>
+            </div>
+          </div>
+          <!--Restaurant3-->
+          <div class="restaurant_card">
+            <div class="restaurant_imgge">
+              <img
+                src="restoreFoodBox/Red_Lantern_Kitchen.png"
+                alt="Red Lantern Kitchen"
+                width="150px"
+                height="200px"
+              />
+            </div>
+            <div class="restaurant_info">
+              <div class="restaurant_name">Red Lantern Kitchen</div>
+              <div class="restaurant_cuisine">
+                Enjoy wok-fresh delicacies, tempting starters, and fragrant
+                Chinese rice
+              </div>
+              <div class="restaurant_details">
+                <div class="rating">⭐ 4.4</div>
+                <div class="delivery_time">30-35 mins</div>
+              </div>
+            </div>
+          </div>
+          <!--Restaurant4-->
+          <div class="restaurant_card">
+            <div class="restaurant_imgge">
+              <img
+                src="restoreFoodBox/sambar_stories.png"
+                alt="Sambar Stories"
+                width="150px"
+                height="200px"
+              />
+            </div>
+            <div class="restaurant_info">
+              <div class="restaurant_name">Sambar Stories</div>
+              <div class="restaurant_cuisine">
+                Feast of Andhra specials—rice, Gutti Vankaya, Gutti Vankaya,
+                sambar, and spicy chutnes.
+              </div>
+              <div class="restaurant_details">
+                <div class="rating">⭐ 4.9</div>
+                <div class="delivery_time">20-25 mins</div>
+              </div>
+            </div>
+          </div>
+          <!--Restaurant5-->
+          <div class="restaurant_card">
+            <div class="restaurant_imgge">
+              <img
+                src="restoreFoodBox/Kesar_Kunj_Restaurant.png"
+                alt="Kesar Kunj Restaurant"
+                width="150px"
+                height="200px"
+              />
+            </div>
+            <div class="restaurant_info">
+              <div class="restaurant_name">Kesar Kunj Restaurant</div>
+              <div class="restaurant_cuisine">
+                Bajra roti, dal bati churma, savory gatta curry, non-veg curry,
+                and fiery lahsun chutney
+              </div>
+              <div class="restaurant_details">
+                <div class="rating">⭐ 3.9</div>
+                <div class="delivery_time">35-45 mins</div>
+              </div>
+            </div>
+          </div>
+          <!--Restaurant6-->
+          <div class="restaurant_card">
+            <div class="restaurant_imgge">
+              <img
+                src="restoreFoodBox/Sprinkle_&_Swirl.png"
+                alt="Sprinkle & Swirl"
+                width="100px"
+                height="100px"
+              />
+            </div>
+            <div class="restaurant_info">
+              <div class="restaurant_name">Sprinkle & Swirl</div>
+              <div class="restaurant_cuisine">
+                creamy cakes, luscious pastries, melt-in-your-mouth chocolates,
+                and irresistible sweets
+              </div>
+              <div class="restaurant_details">
+                <div class="rating">⭐ 4.6</div>
+                <div class="delivery_time">15-20 mins</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Popular Dishes-->
+    <section class="Popular_Dishes" id="menu">
+      <div class="container">
+        <h2 class="section-title">Popular Dishes</h2>
+      </div>
+
+      <div class="menu-grid">
+        <!--Popular Dish1-->
+        <div class="menu_item">
+          <div class="menu_img">
+            <img
+              src="restoreFoodBox/mutton_Biriyani_PD.jpg"
+              alt="Mutton Biryani"
+              width="300px"
+              height="250px"
+            />
+          </div>
+
+          <div class="menu_info">
+            <div class="menu_name">Mutton Biryani</div>
+            <div class="menu_description">
+              Tender marinated mutton, aged basmati rice, golden fried onions, fresh herbs, and saffron-kissed ghee.
+            </div>
+
+            <div class="menu_footer">
+              <div class="menu_price">Rs.339</div>
+              <button class="add_button">ADD</button>
+            </div>
+          </div>
+        </div>
+        <!--Popular Dish2-->
+        <div class="menu_item">
+          <div class="menu_img">
+            <img
+              src="restoreFoodBox/Margherita_Pizza_PD.jpg"
+              alt="Margherita Pizza"
+              width="300px"
+              height="250px"
+            />
+          </div>
+          <div class="menu_info">
+            <div class="menu_name">Margherite Pizza</div>
+            <div class="menu_description">
+              Fresh tomatoes, cheese, mozzarella, basil, and olive oil on crispy
+              crust
+            </div>
+            <div class="menu_footer">
+              <div class="menu_price">Rs.399</div>
+              <button class="add_button">ADD</button>
+            </div>
+          </div>
+        </div>
+        <!--Popular Dish3-->
+        <div class="menu_item">
+          <div class="menu_img">
+            <img
+              src="restoreFoodBox/BBQ_Bacon_Burger_PD.jpg"
+              alt="BBQ Bacon Burger"
+              width="300px"
+              height="250px"
+            />
+          </div>
+          <div class="menu_info">
+            <div class="menu_name">BBQ Bacon Burger</div>
+            <div class="menu_description">
+              Grilled beef patty, crispy bacon, cheddar cheese, BBQ sauce, and
+              toasted bun.
+            </div>
+            <div class="menu_footer">
+              <div class="menu_price">Rs.239</div>
+              <button class="add_button">ADD</button>
+            </div>
+          </div>
+        </div>
+        <!--Popular Dish4-->
+        <div class="menu_item">
+          <div class="menu_img">
+            <img
+              src="restoreFoodBox/Chepala_Pulusu_PD.jpg"
+              alt="Chepala Pulusu"
+              width="300px"
+              height="250px"
+            />
+          </div>
+          <div class="menu_info">
+            <div class="menu_name">Chepala Pulusu</div>
+            <div class="menu_description">
+              Nellore fresh fish pieces, onions, tamarind, green chilies,
+              ginger-garlic paste, homemade spices.
+            </div>
+            <div class="menu_footer">
+              <div class="menu_price">Rs.149</div>
+              <button class="add_button">ADD</button>
+            </div>
+          </div>
+        </div>
+        <!--Popular Dish5-->
+        <div class="menu_item">
+          <div class="menu_img">
+            <img
+              src="restoreFoodBox/Chocolate_Lava_Cake_PD.webp"
+              alt="Chocolate Lava Cake"
+              width="300px"
+              height="250px"
+            />
+          </div>
+          <div class="menu_info">
+            <div class="menu_name">Chocolate Lava Cake</div>
+            <div class="menu_description">
+              Rich chocolate cake, molten chocolate center, eggs, butter, , and
+              flour baked to perfection for a warm.
+            </div>
+            <div class="menu_footer">
+              <div class="menu_price">Rs.109</div>
+              <button class="add_button">ADD</button>
+            </div>
+          </div>
+        </div>
+        <!--Popular Dish6-->
+        <div class="menu_item">
+          <div class="menu_img">
+            <img
+              src="restoreFoodBox/Chicken_65_PD.webp"
+              alt="Chicken 65"
+              width="300px"
+              height="250px"
+            />
+          </div>
+          <div class="menu_info">
+            <div class="menu_name">Chicken 65</div>
+            <div class="menu_description">
+              Boneless chicken, yogurt, red chili powder, ginger-garlic paste,
+              spices, oil.
+            </div>
+            <div class="menu_footer">
+              <div class="menu_price">Rs.179</div>
+              <button class="add_button">ADD</button>
+            </div>
+          </div>
+        </div>
+        <!--Popular Dish7-->
+        <div class="menu_item">
+          <div class="menu_img">
+            <img
+              src="restoreFoodBox/Virgin_Pina_Colada_PD.jpg"
+              alt="Virgin Pina Colada"
+              width="300px"
+              height="250px"
+            />
+          </div>
+          <div class="menu_info">
+            <div class="menu_name">Virgin Pina Colada</div>
+            <div class="menu_description">
+              Apple , coconut milk, pineapple, all fruits juice, ice, maple
+              syrup.
+            </div>
+            <div class="menu_footer">
+              <div class="menu_price">Rs.299</div>
+              <button class="add_button">ADD</button>
+            </div>
+          </div>
+        </div>
+        <!--Popular Dish8-->
+        <div class="menu_item">
+          <div class="menu_img">
+            <img
+              src="restoreFoodBox/Pepper_Chicken_PD.webp"
+              alt="Pepper Chicken"
+              width="300px"
+              height="250px"
+            />
+          </div>
+          <div class="menu_info">
+            <div class="menu_name">Pepper Chicken</div>
+            <div class="menu_description">
+              Chicken, onions, green chilies, ginger-garlic paste, black pepper,
+              spices.
+            </div>
+            <div class="menu_footer">
+              <div class="menu_price">Rs.165</div>
+              <button class="add_button">ADD</button>
+            </div>
+          </div>
+        </div>
+        <!--Popular Dish9-->
+        <div class="menu_item">
+          <div class="menu_img">
+            <img
+              src="restoreFoodBox/Spiced_Lemonade_PD.jpg"
+              alt="Spiced Lemonade"
+              width="300px"
+              height="250px"
+            />
+          </div>
+          <div class="menu_info">
+            <div class="menu_name">Spiced Lemonade</div>
+            <div class="menu_description">
+              Lemon juice, water, sugar, cinnamon, mint leaves, cloves, ginger,
+              ice.
+            </div>
+            <div class="menu_footer">
+              <div class="menu_price">Rs.89</div>
+              <button class="add_button">ADD</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Offers section-->
+    <section class="offers" id="offers">
+      <div>
+        <h2 class="section-title">Special Coupons</h2>
+      </div>
+      <div class="offers_grid">
+        <!--offer card1-->
+        <div class="offer_card">
+          <div class="offer_title">50% OFF</div>
+          <div class="offer_description">On your first order</space></div>
+          <div class="offer_code">Use: NEWMEM50</div>
+        </div>
+        <!--offer card2-->
+        <div class="offer_card">
+          <div class="offer_title">Free Delivery</div>
+          <div class="offer_description">on orders above Rs.299</div>
+          <div class="offer_code">Use: FREEDEL</div>
+        </div>
+        <!--offer card3-->
+        <div class="offer_card">
+          <div class="offer_title">Buy 1 Get 1</div>
+          <div class="offer_description">On selected items</div>
+          <div class="offer_code">Use: BUY1GET1</div>
+        </div>
+        <!--offer card4-->
+        <div class="offer_card">
+          <div class="offer_title">20% OFF</div>
+          <div class="offer_description">On weekend orders</div>
+          <div class="offer_code">Use: WEEKEND20</div>
+        </div>
+        <!--offer card5-->
+        <div class="offer_card">
+          <div class="offer_title">10% OFF</div>
+          <div class="offer_description">On selected restaurants</div>
+          <div class="offer_code">Use: RESTRO10</div>
+        </div>
+      </div>
+    </section>
+
+    <!--App_details-->
+    <footer class="footer" id="contact">
+      <div class="container">
+        <div class="footer_content">
+          <div class="footer_section">
+            <h3>FoodBox</h3>
+            <p>
+              your favorite food delivery app brings mouthwatering meals,
+              bursting with flavor, right to your doorstep. Savor convenience,
+              taste, and happiness in every order!
+            </p>
+          </div>
+          <div class="footer_section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#restaurants">Restaurants</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#offers">Offers</a></li>
+              <li><a href="#contact">Contant</a></li>
+            </ul>
+          </div>
+          <div class="footer_section">
+            <h3>Support</h3>
+            <ul>
+              <li><a href="0">Help Center</a></li>
+              <li><a href="0">Track Order</a></li>
+              <li><a href="0">Refund Policy</a></li>
+              <li><a href="0">Terms & Conditions</a></li>
+            </ul>
+          </div>
+          <div class="footer_section">
+            <h3>Contact Info</h3>
+            <p>
+              <img
+                src="restoreFoodBox/call.png"
+                alt="phone"
+                class="footer-img"
+                width="10px"
+                height="10px"
+              />&nbsp;&nbsp;+91 955XX XXXXX
+            </p>
+            <p>
+              <img
+                src="restoreFoodBox/gmail (1).png"
+                alt="mail"
+                class="footer-img"
+                width="10px"
+                height="10px"
+              />&nbsp;&nbsp;supportfoodbox@gmail.com
+            </p>
+            <p>
+              <img
+                src="restoreFoodBox/location.png"
+                alt="location"
+                class="footer-img"
+                width="10px"
+                height="10px"
+              />&nbsp;&nbsp;1-24 old street, Nellore 524006
+            </p>
+          </div>
+        </div>
+        <hr>
+        <div class="footer_bottom">
+          <p id="bottom">&copy; 2020 FoodBox. All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+
+ <!-- Cart Sidebar -->
+    <div id="cart" class="cart-sidebar">
+
+      <div class="cart-header">
+        <h3 id="cart_list">Your Cart (3 items)</h3>
+        <a href="#" class="close-cart">✕</a>
+      </div>
+
+      <div class="cart-items">
+
+        <div class="cart-item">
+          <h4>Margherita Pizza</h4>
+          <p class="cart-restaurant">Tony's Pizzeria</p>
+          <div class="cart-item-footer">
+            <span>Rs.14.99</span>
+            <div class="quantity-controls">
+              <button class="quantity-btn">-</button>
+              <span>1</span>
+              <button class="quantity-btn-add">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <h4>Classic Cheeseburger</h4>
+          <p class="cart-restaurant">Burger Palace</p>
+          <div class="cart-item-footer">
+            <span>Rs.120.99</span>
+            <div class="quantity-controls">
+              <button class="quantity-btn">-</button>
+              <span>2</span>
+              <button class="quantity-btn-add">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <h4>Caesar Salad</h4>
+          <p class="cart-restaurant">Green Garden</p>
+          <div class="cart-item-footer">
+            <span>Rs.9.99</span>
+            <div class="quantity-controls">
+              <button class="quantity-btn">-</button>
+              <span>1</span>
+              <button class="quantity-btn-add">+</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="cart-totals">
+
+        <div class="cart-total-row">
+          <span>Subtotal:</span>
+          <span>Rs.370.97</span>
+        </div>
+        <div class="cart-total-row">
+          <span>Delivery Fee:</span>
+          <span>Rs.20.99</span>
+        </div>
+        <div class="cart-total-row">
+          <span>Tax:</span>
+          <span>Rs.30.28</span>
+        </div>
+        <div class="cart-total-final">
+          <span>Total:</span>
+          <span>Rs.440.24</span>
+        </div>
+        <button class="checkout-button">Proceed to Checkout</button>
+      </div>
+    </div>
+  </body>
+</html>
